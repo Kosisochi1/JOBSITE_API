@@ -152,7 +152,7 @@ const loginUser = async (req, res) => {
   const ip = req.ip;
   const userToken = { refreshToken, ip, userAgent, userId: userExist._id };
 
-  await Token.create({ userToken });
+  await Token.create(userToken);
 
   //AttachToken to login
 
@@ -264,17 +264,19 @@ const logout = async (req, res) => {
   return res.status(StatusCodes.OK).json({ Massage: "Logout Successfull" });
 };
 
+// Profile Picture
 const profilePicture = async (req, res) => {
-  uplaod.single("image");
+  // uploading image to cloudinary and returning the returning the image url
   const cloudinaryResponse = await cloudinary.uploader.upload(req.file.path);
+  // deleting the image from the upload folder after uploading to cloudinary
   fs.unlink(req.file.path, (err) => {
     if (err) {
       throw new CustomErr.InternalServerError("Upload not Successful");
     }
-    return res
-      .status(StatusCodes.OK)
-      .json({ data: cloudinaryResponse, error: null });
   });
+  return res
+    .status(StatusCodes.OK)
+    .json({ data: cloudinaryResponse.secure_url });
 };
 
 module.exports = {

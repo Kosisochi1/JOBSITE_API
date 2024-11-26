@@ -5,7 +5,7 @@ const createJWT = ({ payload }) => {
   return jwt.sign(payload, process.env.SECRETE_KEY, { expiresIn: "1d" });
 };
 
-const verifyToken = ({ token }) => {
+const verifyToken = (token) => {
   return jwt.verify(token, process.env.SECRETE_KEY);
 };
 

@@ -9,6 +9,7 @@ const { StatusCodes } = require("http-status-codes");
 const CustomError = require("./error");
 const cookie_parser = require("cookie-parser");
 const authUserRoute = require("./routes/authUserRoute");
+const usersRoute = require("./routes/userRoute");
 
 // midlleware
 
@@ -22,6 +23,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookie_parser());
 
 app.use("/api/v1/auth-user", authUserRoute);
+app.use("/api/v1/users", usersRoute);
 
 app.get("*", (req, res) => {
   // logger.info("[Route] =>  Not Found");
