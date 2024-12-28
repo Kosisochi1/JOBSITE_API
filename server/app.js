@@ -10,6 +10,8 @@ const CustomError = require("./error");
 const cookie_parser = require("cookie-parser");
 const authUserRoute = require("./routes/authUserRoute");
 const usersRoute = require("./routes/userRoute");
+const jobRoute = require("./routes/jobRoute");
+const applicationRoute = require("./routes/applicationRoute");
 
 // midlleware
 
@@ -24,6 +26,8 @@ app.use(cookie_parser());
 
 app.use("/api/v1/auth-user", authUserRoute);
 app.use("/api/v1/users", usersRoute);
+app.use("/api/v1/jobs", jobRoute);
+app.use("/api/v1/applications", applicationRoute);
 
 app.get("*", (req, res) => {
   // logger.info("[Route] =>  Not Found");

@@ -1,7 +1,6 @@
 const { StatusCodes } = require("http-status-codes");
 const errorHandlerMiddleware = (err, req, res, next) => {
   // customm default
-  console;
   let customError = {
     statusCode: err.statusCode || StatusCodes.INTERNAL_SERVER_ERROR,
     msg: err.message || " Something went wrong try again later",
@@ -25,6 +24,11 @@ const errorHandlerMiddleware = (err, req, res, next) => {
 
     customError.statusCode = 404;
   }
+  if (customError.msg === "jwt expired") {
+    customError.msg = "Please Login";
+    customError.statusCode = 500;
+  }
+  // console.log(err);
 
   return res.status(customError.statusCode).json({ msg: customError.msg });
 };

@@ -1,6 +1,6 @@
 const { string } = require("joi");
 const mongoose = require("mongoose");
-const { type } = require("server/reply");
+// const { type } = require("server/reply");
 const Schema = mongoose.Schema;
 
 const JobSchema = new Schema({
@@ -17,7 +17,7 @@ const JobSchema = new Schema({
   },
   JobType: {
     type: String,
-    enum: ["Inter", "Full-Time", "Contract"],
+    enum: ["Intern", "Full-Time", "Contract"],
     default: "Intern",
     require: true,
   },
@@ -42,14 +42,18 @@ const JobSchema = new Schema({
       default: 0,
     },
   },
-
-  Expires: {
-    type: Date,
-  },
   NumberOfApplicant: {
     type: Number,
     default: 0,
   },
+
+  Expires: {
+    type: Date,
+  },
+  // NumberOfApplicant: {
+  //   type: Number,
+  //   default: 0,
+  // },
   User_Id: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "user",

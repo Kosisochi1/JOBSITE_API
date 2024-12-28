@@ -8,11 +8,11 @@ const ApplicationSchema = new Schema({
     type: String,
     require: true,
   },
-  LasttName: {
+  LastName: {
     type: String,
     require: true,
   },
-  OrderName: {
+  OtherName: {
     type: String,
   },
   Education: [
@@ -38,9 +38,11 @@ const ApplicationSchema = new Schema({
     enum: ["Pending", "Interviewed", "Expired"],
     default: "Pending",
   },
-  Resume: {
-    type: String,
-  },
+
+  // Resume: {
+  //   type: String,
+  //   require: true,
+  // },
   Job_Id: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "job",
