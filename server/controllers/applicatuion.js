@@ -58,8 +58,7 @@ const updateApplication = async (req, res) => {
 
 const allApplication = async (req, res) => {
   const { Status, sort } = req.query;
-
-  const queryObject = { User_Id: req.user._id };
+  let queryObject = { User_Id: req.user._id };
   if (req.user.UserType === "employer" || "admin") {
     queryObject = {};
   }
@@ -130,7 +129,6 @@ const removeApplication = async (req, res) => {
 };
 
 const showStat = async (req, res) => {
-  console.log("Show Stats", req.user._id);
   const id = req.user._id;
   if (req.user.UserType === "employer") {
     let stats = await ApplicantModel.aggregate([

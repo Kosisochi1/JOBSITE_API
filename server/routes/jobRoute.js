@@ -14,21 +14,21 @@ const {
 const router = express.Router();
 
 router.post(
-  "/create-jobs",
+  "/jobs",
   authenticateUser,
   authorizePermission("employer" || "admin"),
   createJob
 );
-router.get("/all-jobs", authenticateUser, getAllJobs);
-router.get("/single-user/:id", authenticateUser, getSingleJob);
+router.get("/jobs", authenticateUser, getAllJobs);
+router.get("/job/:id", authenticateUser, getSingleJob);
 router.patch(
-  "/update-job/:id",
+  "/job/:id",
   authenticateUser,
   authorizePermission("employer" || "admin"),
   updateJob
 );
 router.delete(
-  "/delete-job/:id",
+  "/job/:id",
   authenticateUser,
   authorizePermission("employer" || "admin"),
   deleteJob

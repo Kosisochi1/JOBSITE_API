@@ -12,15 +12,14 @@ const getAllUsers = async (req, res) => {
 };
 
 const singleUser = async (req, res) => {
-  const user = await UserModel.findById({ _id: req.params.id }).select(
-    "-Password"
-  );
+  const { id } = req.params;
+  const user = await UserModel.findOne({ _id: id }).select("-Password");
   if (!user) {
-    throw new CustomErr.NotFoundError(`No User with ${req.params.id} Found`);
+    throw new CustomErr.NotFoundError(`No User with ${id} Found`);
   }
   checkPermission(req.user, user._id);
 
-  res.status(StatusCodes.OK).json({ user });
+  return res.status(StatusCodes.OK).json({ data: user });
 };
 
 const updateUser = async (req, res) => {

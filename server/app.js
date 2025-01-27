@@ -1,12 +1,11 @@
 require("express-async-errors");
 const express = require("express");
-const db = require("./database");
-const logger = require("./logger/index");
+// const logger = require("./logger/index");
 require("dotenv").config();
 
 const { StatusCodes } = require("http-status-codes");
 
-const CustomError = require("./error");
+// const CustomError = require("./error");
 const cookie_parser = require("cookie-parser");
 const authUserRoute = require("./routes/authUserRoute");
 const usersRoute = require("./routes/userRoute");
@@ -16,13 +15,14 @@ const applicationRoute = require("./routes/applicationRoute");
 // midlleware
 
 const errorHandlerMiddleware = require("./middleware/globalErrorHandler");
+const morganMiddleWare = require("./middleware/loggerMiddleWare");
 
-const PORT = process.env.PORT;
 const app = express();
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookie_parser());
+app.use(morganMiddleWare);
 
 app.use("/api/v1/auth-user", authUserRoute);
 app.use("/api/v1/users", usersRoute);
@@ -40,7 +40,9 @@ app.get("*", (req, res) => {
 
 app.use(errorHandlerMiddleware);
 
-db.connect();
-app.listen(PORT, () => {
-  logger.info("[Server] => Started");
-});
+module.exports = app;
+
+// db.connect();
+// app.listen(PORT, () => {
+//   logger.info("[Server] => Started");
+// });

@@ -1,0 +1,41 @@
+2025-01-09 23:31:28:3128  [32minfo[39m: [32m[Server] => Started[39m
+2025-01-09 23:31:37:3137  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-09 23:32:35:3235  [32minfo[39m: [32m[User Login] => Process Started [39m
+2025-01-09 23:36:20:3620  [32minfo[39m: [32m[Server] => Started[39m
+2025-01-09 23:36:24:3624  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-09 23:38:38:3838  [32minfo[39m: [32m[Server] => Started[39m
+2025-01-09 23:38:46:3846  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-09 23:39:27:3927  [32minfo[39m: [32m[Server] => Started[39m
+2025-01-09 23:39:32:3932  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-09 23:43:55:4355  [32minfo[39m: [32m[Server] => Started[39m
+2025-01-09 23:44:00:440  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-09 23:44:03:443  [35mhttp[39m: [35m::ffff:127.0.0.1 - - [09/Jan/2025:22:44:03 +0000] "GET /api/v1/applications/show-stats HTTP/1.1" 200 90[39m
+[35m[39m
+2025-01-09 23:45:04:454  [32minfo[39m: [32m[User Login] => Process Started [39m
+2025-01-09 23:45:04:454  [35mhttp[39m: [35m::ffff:127.0.0.1 - - [09/Jan/2025:22:45:04 +0000] "POST /api/v1/auth-user/login HTTP/1.1" 200 131[39m
+[35m[39m
+2025-01-10 22:49:51:4951  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-10 23:30:34:3034  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-11 16:16:12:1612  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-12 12:58:42:5842  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-12 14:44:01:441  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-12 14:44:25:4425  [32minfo[39m: [32m[User Login] => Process Started [39m
+2025-01-12 14:44:26:4426  [35mhttp[39m: [35m::ffff:127.0.0.1 - - [12/Jan/2025:13:44:26 +0000] "POST /api/v1/auth-user/login HTTP/1.1" 200 131[39m
+[35m[39m
+2025-01-12 14:46:31:4631  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-12 14:46:36:4636  [32minfo[39m: [32m[User Login] => Process Started [39m
+2025-01-12 14:46:37:4637  [35mhttp[39m: [35m::ffff:127.0.0.1 - - [12/Jan/2025:13:46:37 +0000] "POST /api/v1/auth-user/login HTTP/1.1" 200 131[39m
+[35m[39m
+2025-01-12 14:47:07:477  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-23 05:34:50:3450  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-23 05:35:01:351  [32minfo[39m: [32m[User Login] => Process Started [39m
+2025-01-23 05:35:02:352  [35mhttp[39m: [35m::ffff:127.0.0.1 - - [23/Jan/2025:04:35:02 +0000] "POST /api/v1/auth-user/login HTTP/1.1" 200 163[39m
+[35m[39m
+2025-01-23 05:35:10:3510  [35mhttp[39m: [35m::ffff:127.0.0.1 - - [23/Jan/2025:04:35:10 +0000] "GET /api/v1/applications/jobs HTTP/1.1" 500 42[39m
+[35m[39m
+2025-01-23 05:35:51:3551  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-23 05:35:54:3554  [35mhttp[39m: [35m::ffff:127.0.0.1 - - [23/Jan/2025:04:35:54 +0000] "GET /api/v1/applications/jobs HTTP/1.1" 200 1001[39m
+[35m[39m
+2025-01-23 05:36:34:3634  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-23 05:36:45:3645  [35mhttp[39m: [35m::ffff:127.0.0.1 - - [23/Jan/2025:04:36:45 +0000] "GET /api/v1/applications/jobs HTTP/1.1" 200 1001[39m
+[35m[39m

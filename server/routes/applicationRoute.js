@@ -13,11 +13,11 @@ const upload = multer({ dest: "/uploads" });
 
 const routeA = express.Router();
 
-routeA.post("/apply-job/:id", authenticateUser, applyJob);
-routeA.patch("/update-application/:id", authenticateUser, updateApplication);
+routeA.post("/jobs/:id", authenticateUser, applyJob);
+routeA.patch("/jobs/:id", authenticateUser, updateApplication);
 routeA.get("/show-stats", authenticateUser, showStat);
-routeA.get("/all-applications", authenticateUser, allApplication);
-routeA.get("/single-application/:id", authenticateUser, singleApplication);
-routeA.delete("/delete-application/:id", authenticateUser, removeApplication);
+routeA.get("/jobs", authenticateUser, allApplication);
+routeA.get("/job/:id", authenticateUser, singleApplication);
+routeA.delete("/job/:id", authenticateUser, removeApplication);
 
 module.exports = routeA;

@@ -2,19 +2,12 @@ const { StatusCodes } = require("http-status-codes");
 const UserModel = require("../model/userAuthModel");
 const logger = require("../logger");
 const Token = require("../model/token");
-const {
-  createJWT,
-  verifyToken,
-  attachCookiesToResponse,
-} = require("../utils/jwt");
+const { attachCookiesToResponse } = require("../utils/jwt");
 const createToken = require("../utils/createToken");
-const checkPermission = require("../utils/checkPermission");
 const CustomErr = require("../error");
 const crypto = require("crypto");
 const { sendmail } = require("../utils/mailSetUp");
-const multer = require("multer");
 const cloudinary = require("../integration/cloudinary");
-const uplaod = multer({ dest: "uploads/" });
 const fs = require("fs");
 
 // create User
@@ -128,6 +121,7 @@ const loginUser = async (req, res) => {
     UserType: userExist.UserType,
     Email: userExist.Email,
     PhoneNumber: userExist.PhoneNumber,
+    _id: userExist._id,
   };
 
   let refreshToken = "";
@@ -144,7 +138,7 @@ const loginUser = async (req, res) => {
 
     res
       .status(StatusCodes.OK)
-      .json({ Massage: " Login Successfull", data: Response });
+      .json({ Massage: "Login Successfull", data: Response });
     return;
   }
   refreshToken = crypto.randomBytes(16).toString("hex");
@@ -158,7 +152,7 @@ const loginUser = async (req, res) => {
 
   attachCookiesToResponse({ res, user: loginToken, refreshToken });
   return res.status(StatusCodes.OK).json({
-    Massage: " Login Successfull",
+    Massage: "Login Successfull",
     data: Response,
   });
 };
@@ -183,7 +177,7 @@ const verifyUser = async (req, res) => {
   user.save();
 
   return res.status(StatusCodes.OK).json({
-    Massage: " User Verified",
+    Massage: "User Verified",
     data: user,
   });
 };
@@ -227,7 +221,7 @@ const passwordReset = async (req, res) => {
   const { newPassword, Email } = req.body;
   // const timeNow = new Date(Date.now()) + 1;
   // console.log(timeNow);
-  if (!newPassword) {
+  if (!newPassword && !Email) {
     throw new CustomErr.BadRequest("Please fill empty Feild");
   }
 
@@ -267,7 +261,7 @@ const logout = async (req, res) => {
 // Profile Picture
 const profilePicture = async (req, res) => {
   // uploading image to cloudinary and returning the returning the image url
-  const cloudinaryResponse = await cloudinary.uploader.upload(req.file.path);
+  const cloudinaryResponse = await cloudinary.uploader.upload_stream;
   // deleting the image from the upload folder after uploading to cloudinary
   fs.unlink(req.file.path, (err) => {
     if (err) {

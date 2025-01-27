@@ -6,9 +6,28 @@ const { countDocuments } = require("../model/userAuthModel");
 
 const createJob = async (req, res) => {
   logger.info("[Jobs] => Create Jobs process Started");
+  const {
+    JobTitle,
+    Description,
+    JobType,
+    Qualification,
+    Location,
+    Salary,
+    Expires,
+    User_Id,
+  } = req.body;
 
   req.body.User_Id = req.user._id;
-  const job = await JobModel.create(req.body);
+  const job = await JobModel.create({
+    JobTitle,
+    Description,
+    JobType,
+    Qualification,
+    Location,
+    Salary,
+    Expires,
+    User_Id,
+  });
 
   if (!job) {
     throw new CustomErr.InternalServerError("Server Error");
