@@ -15,7 +15,7 @@ const routeA = express.Router();
 
 routeA.post("/jobs/:id", authenticateUser, applyJob);
 routeA.patch("/jobs/:id", authenticateUser, updateApplication);
-routeA.get("/show-stats", authenticateUser, showStat);
+routeA.get("/stats", authenticateUser, showStat);
 routeA.get("/jobs", authenticateUser, allApplication);
 routeA.get("/job/:id", authenticateUser, singleApplication);
 routeA.delete("/job/:id", authenticateUser, removeApplication);

@@ -11,6 +11,7 @@ describe("Should test all job aplication endpoints", () => {
   let jobId;
   let applicationId;
   let fakeId;
+  let deleteId;
 
   beforeAll(connect.connect);
   beforeEach(async () => {
@@ -238,43 +239,6 @@ describe("Should test all job aplication endpoints", () => {
         .set("content-type", "application/json")
         .set("Cookie", token);
       expect(response.status).toBe(200);
-      // expect(response.body.massage).toBe("All Applications");
-    });
-  });
-  describe("Should test remove job end point", () => {
-    it("It should remove applied job", async () => {
-      const jobResponse = await supertest(app)
-        .post(`/api/v1/applications/jobs/${jobId}`)
-        .set("content-type", "application/json")
-        .set("Cookie", token)
-        .send({
-          LastName: "Kenn",
-          FirstName: "Kosi",
-          Education: [
-            {
-              InstitutionName: "ESUT",
-              Start: "2011-08-24",
-              End: "2016-06-27",
-            },
-          ],
-          Experience: [
-            {
-              NameOfCompany: "NBC",
-              Start: "2018-03-23",
-              End: "2020-04-20",
-            },
-          ],
-          Email: "emma@gmail.com",
-          Status: "Interviewed",
-        });
-      applicationId = jobResponse.body.data._id;
-
-      const response = await supertest(app)
-        .delete(`/api/v1/applications/job/${fakeId}`)
-        .set("content-type", "application/json")
-        .set("Cookie", token);
-      // expect(response.status).toBe(200);
-      console.log(userId, jobResponse.body.data.User_Id, response.body);
       // expect(response.body.massage).toBe("All Applications");
     });
   });

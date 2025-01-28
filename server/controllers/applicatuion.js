@@ -117,7 +117,7 @@ const removeApplication = async (req, res) => {
       `Application with ID: ${id} deos not exist`
     );
   }
-  if (req.user._id !== application.User_Id) {
+  if (application.User_Id !== req.user._id) {
     throw new CustomErr.UnathourizeError(
       "Not Authourize to carry out the actions"
     );
