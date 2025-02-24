@@ -39,3 +39,511 @@
 2025-01-23 05:36:34:3634  [32minfo[39m: [32m[Database] => Connected Successfully[39m
 2025-01-23 05:36:45:3645  [35mhttp[39m: [35m::ffff:127.0.0.1 - - [23/Jan/2025:04:36:45 +0000] "GET /api/v1/applications/jobs HTTP/1.1" 200 1001[39m
 [35m[39m
+2025-01-29 23:46:26:4626  [35mhttp[39m: [35m::1 - - [29/Jan/2025:22:46:26 +0000] "POST /api/v1/users HTTP/1.1" 400 2[39m
+[35m[39m
+2025-01-29 23:46:29:4629  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-29 23:47:40:4740  [35mhttp[39m: [35m::1 - - [29/Jan/2025:22:47:40 +0000] "POST /api/v1/users HTTP/1.1" 400 2[39m
+[35m[39m
+2025-01-29 23:47:46:4746  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-29 23:48:08:488  [35mhttp[39m: [35m::1 - - [29/Jan/2025:22:48:08 +0000] "POST /api/v1/users HTTP/1.1" 400 2[39m
+[35m[39m
+2025-01-29 23:48:54:4854  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-29 23:48:56:4856  [32minfo[39m: [32m[User registration] => Started [39m
+2025-01-29 23:48:56:4856  [32minfo[39m: [32m[User registration] => Check user Duplication[39m
+2025-01-29 23:48:56:4856  [32minfo[39m: [32m[User registration] => Check if this is first User to assign usertype [39m
+2025-01-29 23:48:57:4857  [32minfo[39m: [32m[User registration] => Create Token [39m
+2025-01-29 23:48:57:4857  [32minfo[39m: [32m[User registration] => Completed [39m
+2025-01-29 23:48:57:4857  [35mhttp[39m: [35m::1 - - [29/Jan/2025:22:48:57 +0000] "POST /api/v1/users HTTP/1.1" 201 148[39m
+[35m[39m
+2025-01-29 23:52:27:5227  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-29 23:52:51:5251  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-29 23:53:11:5311  [35mhttp[39m: [35m::1 - - [29/Jan/2025:22:53:11 +0000] "POST /api/v1/users HTTP/1.1" 400 2[39m
+[35m[39m
+2025-01-29 23:53:13:5313  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-29 23:55:19:5519  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-29 23:55:44:5544  [35mhttp[39m: [35m::1 - - [29/Jan/2025:22:55:44 +0000] "POST /api/v1/users HTTP/1.1" 500 59[39m
+[35m[39m
+2025-01-29 23:56:44:5644  [35mhttp[39m: [35m::1 - - [29/Jan/2025:22:56:44 +0000] "POST /api/v1/users HTTP/1.1" 400 2[39m
+[35m[39m
+2025-01-29 23:56:49:5649  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-29 23:57:36:5736  [35mhttp[39m: [35m::1 - - [29/Jan/2025:22:57:36 +0000] "POST /api/v1/users HTTP/1.1" 400 2[39m
+[35m[39m
+2025-01-29 23:57:36:5736  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-29 23:58:50:5850  [35mhttp[39m: [35m::1 - - [29/Jan/2025:22:58:50 +0000] "POST /api/v1/users HTTP/1.1" 400 2[39m
+[35m[39m
+2025-01-29 23:59:44:5944  [35mhttp[39m: [35m::1 - - [29/Jan/2025:22:59:44 +0000] "POST /api/v1/users HTTP/1.1" 400 2[39m
+[35m[39m
+2025-01-30 00:00:05:05  [32minfo[39m: [32m[Database]=> ErrorError: querySrv ETIMEOUT _mongodb._tcp.cluster0.jnpvxpu.mongodb.net Occoured during Connection[39m
+2025-01-30 00:01:20:120  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-30 00:01:34:134  [35mhttp[39m: [35m::1 - - [29/Jan/2025:23:01:34 +0000] "POST /api/v1/users HTTP/1.1" 400 2[39m
+[35m[39m
+2025-01-30 00:01:35:135  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-30 00:02:59:259  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-30 00:03:14:314  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-30 00:03:15:315  [35mhttp[39m: [35m::1 - - [29/Jan/2025:23:03:15 +0000] "POST /api/v1/users HTTP/1.1" 400 2[39m
+[35m[39m
+2025-01-30 00:04:24:424  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-30 00:04:27:427  [35mhttp[39m: [35m::1 - - [29/Jan/2025:23:04:27 +0000] "POST /api/v1/users HTTP/1.1" 400 68[39m
+[35m[39m
+2025-01-30 00:05:04:54  [35mhttp[39m: [35m::1 - - [29/Jan/2025:23:05:04 +0000] "POST /api/v1/users HTTP/1.1" 400 68[39m
+[35m[39m
+2025-01-30 00:05:22:522  [32minfo[39m: [32m[User registration] => Started [39m
+2025-01-30 00:05:22:522  [32minfo[39m: [32m[User registration] => Check user Duplication[39m
+2025-01-30 00:05:22:522  [32minfo[39m: [32m[User registration] => Check if this is first User to assign usertype [39m
+2025-01-30 00:05:22:522  [32minfo[39m: [32m[User registration] => Create Token [39m
+2025-01-30 00:05:22:522  [32minfo[39m: [32m[User registration] => Completed [39m
+2025-01-30 00:05:22:522  [35mhttp[39m: [35m::1 - - [29/Jan/2025:23:05:22 +0000] "POST /api/v1/users HTTP/1.1" 201 151[39m
+[35m[39m
+2025-01-30 17:13:45:1345  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-30 17:13:52:1352  [32minfo[39m: [32m[User registration] => Started [39m
+2025-01-30 17:13:52:1352  [32minfo[39m: [32m[User registration] => Check user Duplication[39m
+2025-01-30 17:13:52:1352  [35mhttp[39m: [35m::1 - - [30/Jan/2025:16:13:52 +0000] "POST /api/v1/users HTTP/1.1" 409 28[39m
+[35m[39m
+2025-01-30 17:15:53:1553  [35mhttp[39m: [35m::1 - - [30/Jan/2025:16:15:53 +0000] "POST /api/v1/login HTTP/1.1" 400 2[39m
+[35m[39m
+2025-01-30 17:16:55:1655  [35mhttp[39m: [35m::1 - - [30/Jan/2025:16:16:55 +0000] "POST /api/v1/login HTTP/1.1" 400 2[39m
+[35m[39m
+2025-01-30 17:18:40:1840  [32minfo[39m: [32m[User Login] => Process Started [39m
+2025-01-30 17:18:40:1840  [35mhttp[39m: [35m::1 - - [30/Jan/2025:16:18:40 +0000] "POST /api/v1/login HTTP/1.1" 401 47[39m
+[35m[39m
+2025-01-30 17:22:07:227  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-30 17:22:29:2229  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-30 17:25:21:2521  [35mhttp[39m: [35m::1 - - [30/Jan/2025:16:25:21 +0000] "POST /api/v1/login HTTP/1.1" 400 68[39m
+[35m[39m
+2025-01-30 17:25:34:2534  [32minfo[39m: [32m[User Login] => Process Started [39m
+2025-01-30 17:25:35:2535  [35mhttp[39m: [35m::1 - - [30/Jan/2025:16:25:35 +0000] "POST /api/v1/login HTTP/1.1" 401 47[39m
+[35m[39m
+2025-01-30 17:26:05:265  [32minfo[39m: [32m[User Login] => Process Started [39m
+2025-01-30 17:26:05:265  [35mhttp[39m: [35m::1 - - [30/Jan/2025:16:26:05 +0000] "POST /api/v1/login HTTP/1.1" 401 47[39m
+[35m[39m
+2025-01-30 17:35:08:358  [35mhttp[39m: [35m::1 - - [30/Jan/2025:16:35:08 +0000] "POST /api/v1/verify?verificationToken=da033c728f890ff6ecf39e93c7cecc05&Email=ezeoyiri92314@gmail.com HTTP/1.1" 200 350[39m
+[35m[39m
+2025-01-30 17:40:14:4014  [35mhttp[39m: [35m::1 - - [30/Jan/2025:16:40:14 +0000] "GET /api/v1/password HTTP/1.1" 404 41[39m
+[35m[39m
+2025-01-30 17:41:57:4157  [35mhttp[39m: [35m::1 - - [30/Jan/2025:16:41:57 +0000] "POST /api/v1/password HTTP/1.1" 200 59[39m
+[35m[39m
+2025-01-30 17:46:48:4648  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-30 17:47:42:4742  [35mhttp[39m: [35m::1 - - [30/Jan/2025:16:47:42 +0000] "POST /api/v1/password HTTP/1.1" 200 59[39m
+[35m[39m
+2025-01-30 17:50:16:5016  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-30 17:50:47:5047  [35mhttp[39m: [35m::1 - - [30/Jan/2025:16:50:47 +0000] "POST /api/v1/password HTTP/1.1" 200 59[39m
+[35m[39m
+2025-01-30 17:53:15:5315  [32minfo[39m: [32m[User Login] => Process Started [39m
+2025-01-30 17:53:18:5318  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-30 17:53:20:5320  [35mhttp[39m: [35m::1 - - [30/Jan/2025:16:53:20 +0000] "POST /api/v1/login HTTP/1.1" 200 174[39m
+[35m[39m
+2025-01-30 17:54:16:5416  [35mhttp[39m: [35m::1 - - [30/Jan/2025:16:54:16 +0000] "POST /api/v1/password HTTP/1.1" 200 59[39m
+[35m[39m
+2025-01-30 18:00:24:024  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-30 18:00:30:030  [35mhttp[39m: [35m::1 - - [30/Jan/2025:17:00:30 +0000] "POST /api/v1/password HTTP/1.1" 200 59[39m
+[35m[39m
+2025-01-30 18:03:16:316  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-30 18:03:17:317  [35mhttp[39m: [35m::ffff:127.0.0.1 - - [30/Jan/2025:17:03:17 +0000] "POST /api/v1/password HTTP/1.1" 404 24[39m
+[35m[39m
+2025-01-30 18:03:28:328  [35mhttp[39m: [35m::ffff:127.0.0.1 - - [30/Jan/2025:17:03:28 +0000] "POST /api/v1/password HTTP/1.1" 200 59[39m
+[35m[39m
+2025-01-30 18:48:47:4847  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-30 18:48:51:4851  [35mhttp[39m: [35m::ffff:127.0.0.1 - - [30/Jan/2025:17:48:51 +0000] "POST /api/v1/password HTTP/1.1" 200 59[39m
+[35m[39m
+2025-01-30 18:51:11:5111  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-30 18:59:57:5957  [35mhttp[39m: [35m::1 - - [30/Jan/2025:17:59:57 +0000] "POST /api/v1/new_password?passwordToken=84ac53e00e4894bcf173c4b64873ba29&Email=ezeoyiri92@gmail.com HTTP/1.1" 200 41[39m
+[35m[39m
+2025-01-30 19:00:40:040  [35mhttp[39m: [35m::1 - - [30/Jan/2025:18:00:40 +0000] "POST /api/v1/login HTTP/1.1" 400 106[39m
+[35m[39m
+2025-01-30 19:03:05:35  [35mhttp[39m: [35m::1 - - [30/Jan/2025:18:03:05 +0000] "POST /api/v1/login HTTP/1.1" 400 106[39m
+[35m[39m
+2025-01-30 19:04:08:48  [35mhttp[39m: [35m::1 - - [30/Jan/2025:18:04:08 +0000] "POST /api/v1/login HTTP/1.1" 400 106[39m
+[35m[39m
+2025-01-30 19:04:10:410  [35mhttp[39m: [35m::1 - - [30/Jan/2025:18:04:10 +0000] "POST /api/v1/login HTTP/1.1" 400 106[39m
+[35m[39m
+2025-01-30 19:04:17:417  [35mhttp[39m: [35m::1 - - [30/Jan/2025:18:04:17 +0000] "POST /api/v1/new_password?passwordToken=84ac53e00e4894bcf173c4b64873ba29&Email=ezeoyiri92@gmail.com HTTP/1.1" 200 41[39m
+[35m[39m
+2025-01-30 19:05:51:551  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-30 19:06:04:64  [35mhttp[39m: [35m::1 - - [30/Jan/2025:18:06:04 +0000] "POST /api/v1/login HTTP/1.1" 400 105[39m
+[35m[39m
+2025-01-30 19:09:43:943  [35mhttp[39m: [35m::1 - - [30/Jan/2025:18:09:43 +0000] "POST /api/v1/login HTTP/1.1" 400 68[39m
+[35m[39m
+2025-01-30 19:09:49:949  [32minfo[39m: [32m[User Login] => Process Started [39m
+2025-01-30 19:09:50:950  [35mhttp[39m: [35m::1 - - [30/Jan/2025:18:09:50 +0000] "POST /api/v1/login HTTP/1.1" 200 171[39m
+[35m[39m
+2025-01-30 19:10:19:1019  [35mhttp[39m: [35m::1 - - [30/Jan/2025:18:10:19 +0000] "POST /api/v1/password HTTP/1.1" 200 59[39m
+[35m[39m
+2025-01-30 19:11:10:1110  [35mhttp[39m: [35m::1 - - [30/Jan/2025:18:11:10 +0000] "POST /api/v1/new_password?passwordToken=e6957eb0b750a23ebed475c0b675cfae&Email=ezeoyiri92@gmail.com HTTP/1.1" 404 159[39m
+[35m[39m
+2025-01-30 19:13:46:1346  [35mhttp[39m: [35m::1 - - [30/Jan/2025:18:13:46 +0000] "PATCH /api/v1/new_password?passwordToken=e6957eb0b750a23ebed475c0b675cfae&Email=ezeoyiri92@gmail.com HTTP/1.1" 200 41[39m
+[35m[39m
+2025-01-30 19:14:14:1414  [35mhttp[39m: [35m::1 - - [30/Jan/2025:18:14:14 +0000] "POST /api/v1/login HTTP/1.1" 400 106[39m
+[35m[39m
+2025-01-30 19:19:14:1914  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-30 19:21:06:216  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-30 19:24:49:2449  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-30 19:38:53:3853  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-30 19:44:06:446  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-30 19:45:52:4552  [35mhttp[39m: [35m::1 - - [30/Jan/2025:18:45:52 +0000] "POST /api/v1/login HTTP/1.1" 400 106[39m
+[35m[39m
+2025-01-30 19:46:01:461  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-30 19:46:23:4623  [35mhttp[39m: [35m::1 - - [30/Jan/2025:18:46:23 +0000] "POST /api/v1/login HTTP/1.1" 400 106[39m
+[35m[39m
+2025-01-30 19:46:25:4625  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-30 19:46:25:4625  [35mhttp[39m: [35m::1 - - [30/Jan/2025:18:46:25 +0000] "POST /api/v1/login HTTP/1.1" 400 106[39m
+[35m[39m
+2025-01-30 19:46:27:4627  [35mhttp[39m: [35m::1 - - [30/Jan/2025:18:46:27 +0000] "POST /api/v1/login HTTP/1.1" 400 106[39m
+[35m[39m
+2025-01-30 19:46:29:4629  [35mhttp[39m: [35m::1 - - [30/Jan/2025:18:46:29 +0000] "POST /api/v1/login HTTP/1.1" 400 106[39m
+[35m[39m
+2025-01-30 19:46:50:4650  [32minfo[39m: [32m[User Login] => Process Started [39m
+2025-01-30 19:46:55:4655  [35mhttp[39m: [35m::1 - - [30/Jan/2025:18:46:55 +0000] "POST /api/v1/login HTTP/1.1" 200 171[39m
+[35m[39m
+2025-01-30 19:51:14:5114  [32minfo[39m: [32m[User Login] => Process Started [39m
+2025-01-30 19:51:14:5114  [35mhttp[39m: [35m::1 - - [30/Jan/2025:18:51:14 +0000] "POST /api/v1/login HTTP/1.1" 200 171[39m
+[35m[39m
+2025-01-30 19:52:26:5226  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-30 19:52:30:5230  [35mhttp[39m: [35m::1 - - [30/Jan/2025:18:52:30 +0000] "POST /api/v1/password HTTP/1.1" 200 59[39m
+[35m[39m
+2025-01-30 19:54:11:5411  [35mhttp[39m: [35m::1 - - [30/Jan/2025:18:54:11 +0000] "PATCH /api/v1/new_password?passwordToken=69bfe64b15947f08026f6971f226c9c1&Email=ezeoyiri92@gmail.com HTTP/1.1" 200 41[39m
+[35m[39m
+2025-01-30 20:06:19:619  [35mhttp[39m: [35m::1 - - [30/Jan/2025:19:06:19 +0000] "POST /api/v1/login HTTP/1.1" 400 106[39m
+[35m[39m
+2025-01-30 20:07:03:73  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-30 20:07:08:78  [35mhttp[39m: [35m::1 - - [30/Jan/2025:19:07:08 +0000] "POST /api/v1/login HTTP/1.1" 400 106[39m
+[35m[39m
+2025-01-30 20:07:10:710  [35mhttp[39m: [35m::1 - - [30/Jan/2025:19:07:10 +0000] "POST /api/v1/login HTTP/1.1" 400 106[39m
+[35m[39m
+2025-01-30 20:07:12:712  [35mhttp[39m: [35m::1 - - [30/Jan/2025:19:07:12 +0000] "POST /api/v1/login HTTP/1.1" 400 106[39m
+[35m[39m
+2025-01-30 20:07:13:713  [35mhttp[39m: [35m::1 - - [30/Jan/2025:19:07:13 +0000] "POST /api/v1/login HTTP/1.1" 400 106[39m
+[35m[39m
+2025-01-30 20:07:39:739  [35mhttp[39m: [35m::1 - - [30/Jan/2025:19:07:39 +0000] "POST /api/v1/password HTTP/1.1" 200 59[39m
+[35m[39m
+2025-01-30 20:08:31:831  [35mhttp[39m: [35m::1 - - [30/Jan/2025:19:08:31 +0000] "PATCH /api/v1/new_password?passwordToken=f61b276292b9f9077c1ca88f0ccd8679&Email=ezeoyiri92@gmail.com HTTP/1.1" 200 41[39m
+[35m[39m
+2025-01-30 20:11:10:1110  [35mhttp[39m: [35m::1 - - [30/Jan/2025:19:11:10 +0000] "POST /api/v1/login HTTP/1.1" 400 106[39m
+[35m[39m
+2025-01-30 20:11:29:1129  [32minfo[39m: [32m[User Login] => Process Started [39m
+2025-01-30 20:11:30:1130  [35mhttp[39m: [35m::1 - - [30/Jan/2025:19:11:30 +0000] "POST /api/v1/login HTTP/1.1" 401 29[39m
+[35m[39m
+2025-01-30 20:11:39:1139  [32minfo[39m: [32m[User Login] => Process Started [39m
+2025-01-30 20:11:40:1140  [35mhttp[39m: [35m::1 - - [30/Jan/2025:19:11:40 +0000] "POST /api/v1/login HTTP/1.1" 401 29[39m
+[35m[39m
+2025-01-30 20:11:42:1142  [32minfo[39m: [32m[User Login] => Process Started [39m
+2025-01-30 20:11:42:1142  [35mhttp[39m: [35m::1 - - [30/Jan/2025:19:11:42 +0000] "POST /api/v1/login HTTP/1.1" 401 29[39m
+[35m[39m
+2025-01-30 20:12:01:121  [32minfo[39m: [32m[User Login] => Process Started [39m
+2025-01-30 20:12:01:121  [35mhttp[39m: [35m::1 - - [30/Jan/2025:19:12:01 +0000] "POST /api/v1/login HTTP/1.1" 401 29[39m
+[35m[39m
+2025-01-30 20:12:19:1219  [35mhttp[39m: [35m::1 - - [30/Jan/2025:19:12:19 +0000] "POST /api/v1/login HTTP/1.1" 400 106[39m
+[35m[39m
+2025-01-30 20:13:49:1349  [35mhttp[39m: [35m::1 - - [30/Jan/2025:19:13:49 +0000] "POST /api/v1/login HTTP/1.1" 400 105[39m
+[35m[39m
+2025-01-30 20:14:06:146  [35mhttp[39m: [35m::1 - - [30/Jan/2025:19:14:06 +0000] "POST /api/v1/login HTTP/1.1" 400 106[39m
+[35m[39m
+2025-01-30 20:15:11:1511  [35mhttp[39m: [35m::1 - - [30/Jan/2025:19:15:11 +0000] "POST /api/v1/users HTTP/1.1" 400 106[39m
+[35m[39m
+2025-01-31 18:01:13:113  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-31 18:21:33:2133  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-31 20:13:42:1342  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-01-31 23:17:22:1722  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-02 09:18:58:1858  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-02 09:42:43:4243  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-02 14:18:24:1824  [35mhttp[39m: [35m::1 - - [02/Feb/2025:13:18:24 +0000] "POST /api/v1/users HTTP/1.1" 400 106[39m
+[35m[39m
+2025-02-02 14:19:17:1917  [32minfo[39m: [32m[User registration] => Started [39m
+2025-02-02 14:19:17:1917  [32minfo[39m: [32m[User registration] => Check user Duplication[39m
+2025-02-02 14:19:18:1918  [32minfo[39m: [32m[User registration] => Check if this is first User to assign usertype [39m
+2025-02-02 14:19:19:1919  [32minfo[39m: [32m[User registration] => Create Token [39m
+2025-02-02 14:19:19:1919  [32minfo[39m: [32m[User registration] => Completed [39m
+2025-02-02 14:19:19:1919  [35mhttp[39m: [35m::1 - - [02/Feb/2025:13:19:19 +0000] "POST /api/v1/users HTTP/1.1" 201 148[39m
+[35m[39m
+2025-02-02 14:20:42:2042  [35mhttp[39m: [35m::1 - - [02/Feb/2025:13:20:42 +0000] "POST /api/v1/verify?verificationToken=36a5d67e28696c9d029d24b81cda9d07&Email=ezeoyiri92314@gmail.com HTTP/1.1" 200 347[39m
+[35m[39m
+2025-02-02 14:22:08:228  [35mhttp[39m: [35m::1 - - [02/Feb/2025:13:22:08 +0000] "POST /api/v1/password HTTP/1.1" 200 59[39m
+[35m[39m
+2025-02-02 14:23:27:2327  [35mhttp[39m: [35m::1 - - [02/Feb/2025:13:23:27 +0000] "PATCH /api/v1/new_password?passwordToken=8580ac8b8818123fefa868215b237400&Email=ezeoyiri92@gmail.com HTTP/1.1" 200 41[39m
+[35m[39m
+2025-02-02 14:23:56:2356  [32minfo[39m: [32m[User Login] => Process Started [39m
+2025-02-02 14:23:57:2357  [35mhttp[39m: [35m::1 - - [02/Feb/2025:13:23:57 +0000] "POST /api/v1/login HTTP/1.1" 200 171[39m
+[35m[39m
+2025-02-02 14:30:27:3027  [35mhttp[39m: [35m::1 - - [02/Feb/2025:13:30:27 +0000] "GET /api/v1/logout HTTP/1.1" 200 32[39m
+[35m[39m
+2025-02-02 14:32:21:3221  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-02 14:33:51:3351  [35mhttp[39m: [35m::1 - - [02/Feb/2025:13:33:51 +0000] "POST /api/v1/picture?image HTTP/1.1" 200 2[39m
+[35m[39m
+2025-02-02 14:36:23:3623  [32minfo[39m: [32m[User Login] => Process Started [39m
+2025-02-02 14:36:33:3633  [35mhttp[39m: [35m::1 - - [02/Feb/2025:13:36:33 +0000] "POST /api/v1/login HTTP/1.1" 200 171[39m
+[35m[39m
+2025-02-02 14:38:00:380  [35mhttp[39m: [35m::1 - - [02/Feb/2025:13:38:00 +0000] "POST /api/v1/picture?image HTTP/1.1" 200 2[39m
+[35m[39m
+2025-02-02 14:38:03:383  [35mhttp[39m: [35m::1 - - [02/Feb/2025:13:38:03 +0000] "POST /api/v1/picture?image HTTP/1.1" 200 2[39m
+[35m[39m
+2025-02-02 14:38:07:387  [32minfo[39m: [32m[Database]=> ErrorError: querySrv ETIMEOUT _mongodb._tcp.cluster0.jnpvxpu.mongodb.net Occoured during Connection[39m
+2025-02-02 14:39:15:3915  [35mhttp[39m: [35m::1 - - [02/Feb/2025:13:39:15 +0000] "POST /api/v1/picture?image HTTP/1.1" 200 2[39m
+[35m[39m
+2025-02-02 14:39:55:3955  [35mhttp[39m: [35m::1 - - [02/Feb/2025:13:39:55 +0000] "POST /api/v1/picture?image HTTP/1.1" 200 2[39m
+[35m[39m
+2025-02-02 14:41:08:418  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-02 14:41:29:4129  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-02 14:42:42:4242  [35mhttp[39m: [35m::1 - - [02/Feb/2025:13:42:42 +0000] "POST /api/v1/picture?image HTTP/1.1" 200 2[39m
+[35m[39m
+2025-02-02 14:44:09:449  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-02 14:44:57:4457  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-02 14:46:13:4613  [35mhttp[39m: [35m::1 - - [02/Feb/2025:13:46:13 +0000] "POST /api/v1/picture?image HTTP/1.1" 200 2[39m
+[35m[39m
+2025-02-02 14:46:16:4616  [35mhttp[39m: [35m::1 - - [02/Feb/2025:13:46:16 +0000] "POST /api/v1/picture?image HTTP/1.1" 200 2[39m
+[35m[39m
+2025-02-02 14:46:17:4617  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-02 14:46:18:4618  [35mhttp[39m: [35m::1 - - [02/Feb/2025:13:46:18 +0000] "POST /api/v1/picture?image HTTP/1.1" 200 2[39m
+[35m[39m
+2025-02-02 14:47:40:4740  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-02 14:48:06:486  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-02 14:48:14:4814  [35mhttp[39m: [35m::1 - - [02/Feb/2025:13:48:14 +0000] "POST /api/v1/picture?image HTTP/1.1" 200 2[39m
+[35m[39m
+2025-02-02 14:53:17:5317  [35mhttp[39m: [35m::1 - - [02/Feb/2025:13:53:17 +0000] "POST /api/v1/picture?image HTTP/1.1" 200 2[39m
+[35m[39m
+2025-02-02 14:53:20:5320  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-02 14:53:20:5320  [35mhttp[39m: [35m::1 - - [02/Feb/2025:13:53:20 +0000] "POST /api/v1/picture?image HTTP/1.1" 200 2[39m
+[35m[39m
+2025-02-02 14:53:22:5322  [35mhttp[39m: [35m::1 - - [02/Feb/2025:13:53:22 +0000] "POST /api/v1/picture?image HTTP/1.1" 200 2[39m
+[35m[39m
+2025-02-02 14:53:49:5349  [35mhttp[39m: [35m::1 - - [02/Feb/2025:13:53:49 +0000] "POST /api/v1/picture?image HTTP/1.1" 200 97[39m
+[35m[39m
+2025-02-02 14:53:49:5349  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-02 14:54:55:5455  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-02 14:57:14:5714  [35mhttp[39m: [35m::1 - - [02/Feb/2025:13:57:14 +0000] "POST /api/v1/picture?image HTTP/1.1" 200 97[39m
+[35m[39m
+2025-02-02 14:57:17:5717  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-02 15:14:34:1434  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-02 15:17:00:170  [35mhttp[39m: [35m::1 - - [02/Feb/2025:14:17:00 +0000] "GET /api/v1/all_users HTTP/1.1" 200 279[39m
+[35m[39m
+2025-02-02 15:19:48:1948  [35mhttp[39m: [35m::1 - - [02/Feb/2025:14:19:48 +0000] "GET /api/v1/all_users HTTP/1.1" 200 279[39m
+[35m[39m
+2025-02-02 16:29:14:2914  [35mhttp[39m: [35m::1 - - [02/Feb/2025:15:29:14 +0000] "PATCH /api/v1/update_user HTTP/1.1" 200 93[39m
+[35m[39m
+2025-02-02 16:29:33:2933  [35mhttp[39m: [35m::1 - - [02/Feb/2025:15:29:33 +0000] "GET /api/v1/all_users HTTP/1.1" 200 280[39m
+[35m[39m
+2025-02-02 16:33:03:333  [35mhttp[39m: [35m::1 - - [02/Feb/2025:15:33:03 +0000] "PATCH /api/v1/update_password HTTP/1.1" 401 24[39m
+[35m[39m
+2025-02-02 16:34:21:3421  [35mhttp[39m: [35m::1 - - [02/Feb/2025:15:34:21 +0000] "PATCH /api/v1/update_password HTTP/1.1" 200 37[39m
+[35m[39m
+2025-02-02 16:34:31:3431  [32minfo[39m: [32m[User Login] => Process Started [39m
+2025-02-02 16:34:31:3431  [35mhttp[39m: [35m::1 - - [02/Feb/2025:15:34:31 +0000] "POST /api/v1/login HTTP/1.1" 404 23[39m
+[35m[39m
+2025-02-02 16:34:59:3459  [32minfo[39m: [32m[User Login] => Process Started [39m
+2025-02-02 16:35:00:350  [35mhttp[39m: [35m::1 - - [02/Feb/2025:15:35:00 +0000] "POST /api/v1/login HTTP/1.1" 401 29[39m
+[35m[39m
+2025-02-02 16:35:13:3513  [32minfo[39m: [32m[User Login] => Process Started [39m
+2025-02-02 16:35:14:3514  [35mhttp[39m: [35m::1 - - [02/Feb/2025:15:35:14 +0000] "POST /api/v1/login HTTP/1.1" 200 172[39m
+[35m[39m
+2025-02-02 16:37:34:3734  [35mhttp[39m: [35m::1 - - [02/Feb/2025:15:37:34 +0000] "GET /api/v1/single_user/679f70d773174c947d2d69d1 HTTP/1.1" 200 278[39m
+[35m[39m
+2025-02-02 16:44:02:442  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-02 16:50:47:5047  [35mhttp[39m: [35m::1 - - [02/Feb/2025:15:50:47 +0000] "POST /api/v1/jobs HTTP/1.1" 401 33[39m
+[35m[39m
+2025-02-02 16:52:57:5257  [32minfo[39m: [32m[User Login] => Process Started [39m
+2025-02-02 16:52:58:5258  [35mhttp[39m: [35m::1 - - [02/Feb/2025:15:52:58 +0000] "POST /api/v1/login HTTP/1.1" 200 172[39m
+[35m[39m
+2025-02-02 16:53:12:5312  [35mhttp[39m: [35m::1 - - [02/Feb/2025:15:53:12 +0000] "POST /api/v1/jobs HTTP/1.1" 401 33[39m
+[35m[39m
+2025-02-02 16:54:18:5418  [35mhttp[39m: [35m::1 - - [02/Feb/2025:15:54:18 +0000] "POST /api/v1/jobs HTTP/1.1" 401 33[39m
+[35m[39m
+2025-02-02 16:54:20:5420  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-02 16:54:58:5458  [35mhttp[39m: [35m::1 - - [02/Feb/2025:15:54:58 +0000] "POST /api/v1/jobs HTTP/1.1" 401 33[39m
+[35m[39m
+2025-02-02 16:55:00:550  [35mhttp[39m: [35m::1 - - [02/Feb/2025:15:55:00 +0000] "POST /api/v1/jobs HTTP/1.1" 401 33[39m
+[35m[39m
+2025-02-02 16:55:30:5530  [32minfo[39m: [32m[Jobs] => Create Jobs process Started[39m
+2025-02-02 16:55:35:5535  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-02 16:55:36:5536  [35mhttp[39m: [35m::1 - - [02/Feb/2025:15:55:36 +0000] "POST /api/v1/jobs HTTP/1.1" 201 296[39m
+[35m[39m
+2025-02-02 16:56:57:5657  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-02 17:08:34:834  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-02 20:36:19:3619  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-02 20:48:50:4850  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-02 21:09:04:94  [35mhttp[39m: [35m::1 - - [02/Feb/2025:20:09:04 +0000] "POST /api/v1/jobs HTTP/1.1" 500 59[39m
+[35m[39m
+2025-02-02 21:09:08:98  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-02 21:09:40:940  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-02 21:09:40:940  [32minfo[39m: [32m[Jobs] => Create Jobs process Started[39m
+2025-02-02 21:09:41:941  [35mhttp[39m: [35m::1 - - [02/Feb/2025:20:09:41 +0000] "POST /api/v1/jobs HTTP/1.1" 201 296[39m
+[35m[39m
+2025-02-02 21:12:34:1234  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-02 21:12:42:1242  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-02 21:12:44:1244  [35mhttp[39m: [35m::1 - - [02/Feb/2025:20:12:44 +0000] "POST /api/v1/jobs HTTP/1.1" 500 59[39m
+[35m[39m
+2025-02-02 21:13:24:1324  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-02 21:13:32:1332  [35mhttp[39m: [35m::1 - - [02/Feb/2025:20:13:32 +0000] "POST /api/v1/jobs HTTP/1.1" 500 59[39m
+[35m[39m
+2025-02-02 21:13:37:1337  [35mhttp[39m: [35m::1 - - [02/Feb/2025:20:13:37 +0000] "POST /api/v1/jobs HTTP/1.1" 500 59[39m
+[35m[39m
+2025-02-02 21:14:28:1428  [35mhttp[39m: [35m::1 - - [02/Feb/2025:20:14:28 +0000] "POST /api/v1/jobs HTTP/1.1" 500 59[39m
+[35m[39m
+2025-02-02 21:16:42:1642  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-02 21:16:44:1644  [35mhttp[39m: [35m::1 - - [02/Feb/2025:20:16:44 +0000] "POST /api/v1/jobs HTTP/1.1" 500 59[39m
+[35m[39m
+2025-02-02 21:16:46:1646  [35mhttp[39m: [35m::1 - - [02/Feb/2025:20:16:46 +0000] "POST /api/v1/jobs HTTP/1.1" 500 59[39m
+[35m[39m
+2025-02-02 21:19:46:1946  [35mhttp[39m: [35m::1 - - [02/Feb/2025:20:19:46 +0000] "POST /api/v1/jobs HTTP/1.1" 400 39[39m
+[35m[39m
+2025-02-02 21:19:48:1948  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-02 21:20:55:2055  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-02 21:20:57:2057  [35mhttp[39m: [35m::1 - - [02/Feb/2025:20:20:57 +0000] "POST /api/v1/jobs HTTP/1.1" 400 41[39m
+[35m[39m
+2025-02-02 21:23:05:235  [32minfo[39m: [32m[Jobs] => Create Jobs process Started[39m
+2025-02-02 21:23:15:2315  [35mhttp[39m: [35m::1 - - [02/Feb/2025:20:23:15 +0000] "POST /api/v1/jobs HTTP/1.1" 500 72[39m
+[35m[39m
+2025-02-02 21:23:24:2324  [32minfo[39m: [32m[Database]=> ErrorError: queryTxt ETIMEOUT cluster0.jnpvxpu.mongodb.net Occoured during Connection[39m
+2025-02-03 18:02:48:248  [32minfo[39m: [32m[User Login] => Process Started [39m
+2025-02-03 18:02:57:257  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-03 18:02:58:258  [35mhttp[39m: [35m::1 - - [03/Feb/2025:17:02:58 +0000] "POST /api/v1/login HTTP/1.1" 200 172[39m
+[35m[39m
+2025-02-03 18:03:25:325  [32minfo[39m: [32m[Jobs] => Create Jobs process Started[39m
+2025-02-03 18:03:26:326  [35mhttp[39m: [35m::1 - - [03/Feb/2025:17:03:26 +0000] "POST /api/v1/jobs HTTP/1.1" 201 296[39m
+[35m[39m
+2025-02-03 18:04:51:451  [35mhttp[39m: [35m::1 - - [03/Feb/2025:17:04:51 +0000] "GET /api/v1/jobs HTTP/1.1" 404 22[39m
+[35m[39m
+2025-02-03 18:06:38:638  [35mhttp[39m: [35m::1 - - [03/Feb/2025:17:06:38 +0000] "GET /api/v1/jobs HTTP/1.1" 404 22[39m
+[35m[39m
+2025-02-03 18:10:27:1027  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-03 18:13:10:1310  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-03 18:13:58:1358  [32minfo[39m: [32m[Jobs] => Create Jobs process Started[39m
+2025-02-03 18:14:00:140  [35mhttp[39m: [35m::1 - - [03/Feb/2025:17:14:00 +0000] "POST /api/v1/jobs HTTP/1.1" 201 296[39m
+[35m[39m
+2025-02-03 18:15:13:1513  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-03 18:15:29:1529  [32minfo[39m: [32m[Jobs] => Create Jobs process Started[39m
+2025-02-03 18:15:29:1529  [35mhttp[39m: [35m::1 - - [03/Feb/2025:17:15:29 +0000] "POST /api/v1/jobs HTTP/1.1" 201 333[39m
+[35m[39m
+2025-02-03 18:15:44:1544  [35mhttp[39m: [35m::1 - - [03/Feb/2025:17:15:44 +0000] "GET /api/v1/jobs HTTP/1.1" 200 352[39m
+[35m[39m
+2025-02-03 18:20:27:2027  [35mhttp[39m: [35m::1 - - [03/Feb/2025:17:20:27 +0000] "GET /api/v1/job/67a0f9b1ace4e442e9ef6733 HTTP/1.1" 200 309[39m
+[35m[39m
+2025-02-03 18:20:43:2043  [35mhttp[39m: [35m::1 - - [03/Feb/2025:17:20:43 +0000] "GET /api/v1/job/67a0f9b1ace4e442e9ef6739 HTTP/1.1" 404 53[39m
+[35m[39m
+2025-02-03 18:20:56:2056  [35mhttp[39m: [35m::1 - - [03/Feb/2025:17:20:56 +0000] "GET /api/v1/job/67a0f9b1ace4e442e9ef6733 HTTP/1.1" 200 309[39m
+[35m[39m
+2025-02-03 18:26:57:2657  [35mhttp[39m: [35m::1 - - [03/Feb/2025:17:26:57 +0000] "PATCH /api/v1/job/67a0f9b1ace4e442e9ef6733 HTTP/1.1" 200 21[39m
+[35m[39m
+2025-02-03 18:27:14:2714  [35mhttp[39m: [35m::1 - - [03/Feb/2025:17:27:14 +0000] "GET /api/v1/job/67a0f9b1ace4e442e9ef6733 HTTP/1.1" 200 309[39m
+[35m[39m
+2025-02-03 18:29:19:2919  [32minfo[39m: [32m[Jobs] => Create Jobs process Started[39m
+2025-02-03 18:29:19:2919  [35mhttp[39m: [35m::1 - - [03/Feb/2025:17:29:19 +0000] "POST /api/v1/jobs HTTP/1.1" 201 337[39m
+[35m[39m
+2025-02-03 18:29:27:2927  [35mhttp[39m: [35m::1 - - [03/Feb/2025:17:29:27 +0000] "GET /api/v1/jobs HTTP/1.1" 200 656[39m
+[35m[39m
+2025-02-03 18:32:17:3217  [35mhttp[39m: [35m::1 - - [03/Feb/2025:17:32:17 +0000] "DELETE /api/v1/job/67a0fceface4e442e9ef673d HTTP/1.1" 401 33[39m
+[35m[39m
+2025-02-03 18:34:10:3410  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-03 18:34:10:3410  [35mhttp[39m: [35m::1 - - [03/Feb/2025:17:34:10 +0000] "DELETE /api/v1/job/67a0fceface4e442e9ef673d HTTP/1.1" 200 25[39m
+[35m[39m
+2025-02-03 19:01:55:155  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-03 19:03:16:316  [35mhttp[39m: [35m::1 - - [03/Feb/2025:18:03:16 +0000] "GET /api/v1/jobs HTTP/1.1" 200 352[39m
+[35m[39m
+2025-02-03 19:04:24:424  [35mhttp[39m: [35m::1 - - [03/Feb/2025:18:04:24 +0000] "POST /api/v1/application/67a0f9b1ace4e442e9ef6733 HTTP/1.1" 400 56[39m
+[35m[39m
+2025-02-03 19:06:33:633  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-03 19:07:15:715  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-03 19:11:19:1119  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-03 19:17:30:1730  [35mhttp[39m: [35m::1 - - [03/Feb/2025:18:17:30 +0000] "POST /api/v1/application/67a0f9b1ace4e442e9ef6733 HTTP/1.1" 400 41[39m
+[35m[39m
+2025-02-03 19:19:54:1954  [35mhttp[39m: [35m::1 - - [03/Feb/2025:18:19:54 +0000] "POST /api/v1/application/67a0f9b1ace4e442e9ef6733 HTTP/1.1" 500 70[39m
+[35m[39m
+2025-02-03 19:20:05:205  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-03 19:22:54:2254  [35mhttp[39m: [35m::1 - - [03/Feb/2025:18:22:54 +0000] "POST /api/v1/application/67a0f9b1ace4e442e9ef6733 HTTP/1.1" 400 58[39m
+[35m[39m
+2025-02-03 19:22:54:2254  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-03 19:24:53:2453  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-03 19:24:54:2454  [35mhttp[39m: [35m::1 - - [03/Feb/2025:18:24:54 +0000] "POST /api/v1/application/67a0f9b1ace4e442e9ef6733 HTTP/1.1" 200 502[39m
+[35m[39m
+2025-02-03 19:40:23:4023  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-03 19:43:25:4325  [35mhttp[39m: [35m::1 - - [03/Feb/2025:18:43:25 +0000] "PATCH /api/v1/application_update/67a0f9b1ace4e442e9ef6733 HTTP/1.1" 404 57[39m
+[35m[39m
+2025-02-03 19:44:18:4418  [35mhttp[39m: [35m::1 - - [03/Feb/2025:18:44:18 +0000] "POST /api/v1/application/67a0f9b1ace4e442e9ef6733 HTTP/1.1" 200 502[39m
+[35m[39m
+2025-02-03 19:45:03:453  [35mhttp[39m: [35m::1 - - [03/Feb/2025:18:45:03 +0000] "PATCH /api/v1/application_update/67a10e824b511f78beafd1d9 HTTP/1.1" 200 133[39m
+[35m[39m
+2025-02-03 19:45:21:4521  [35mhttp[39m: [35m::1 - - [03/Feb/2025:18:45:21 +0000] "PATCH /api/v1/application_update/67a10e824b511f78beafd1d9 HTTP/1.1" 200 133[39m
+[35m[39m
+2025-02-03 19:52:17:5217  [35mhttp[39m: [35m::1 - - [03/Feb/2025:18:52:17 +0000] "GET /api/v1/all_application HTTP/1.1" 200 499[39m
+[35m[39m
+2025-02-03 19:54:05:545  [35mhttp[39m: [35m::1 - - [03/Feb/2025:18:54:05 +0000] "GET /api/v1/application/67a10e824b511f78beafd1d9 HTTP/1.1" 200 468[39m
+[35m[39m
+2025-02-03 19:54:15:5415  [35mhttp[39m: [35m::1 - - [03/Feb/2025:18:54:15 +0000] "GET /api/v1/application/67a10e824b511f78beafd1d8 HTTP/1.1" 404 70[39m
+[35m[39m
+2025-02-03 19:54:26:5426  [35mhttp[39m: [35m::1 - - [03/Feb/2025:18:54:26 +0000] "GET /api/v1/application/67a10e824b511f78beafd1d9 HTTP/1.1" 200 468[39m
+[35m[39m
+2025-02-03 19:55:48:5548  [35mhttp[39m: [35m::1 - - [03/Feb/2025:18:55:48 +0000] "DELETE /api/v1/remove_application/67a10e824b511f78beafd1d9 HTTP/1.1" 401 49[39m
+[35m[39m
+2025-02-03 19:59:52:5952  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-04 16:57:10:5710  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-04 18:57:04:574  [35mhttp[39m: [35m::1 - - [04/Feb/2025:17:57:04 +0000] "DELETE /api/v1/remove_application/67a10e824b511f78beafd1d9 HTTP/1.1" 500 22[39m
+[35m[39m
+2025-02-04 18:57:27:5727  [32minfo[39m: [32m[User Login] => Process Started [39m
+2025-02-04 18:57:32:5732  [35mhttp[39m: [35m::1 - - [04/Feb/2025:17:57:32 +0000] "POST /api/v1/login HTTP/1.1" 200 172[39m
+[35m[39m
+2025-02-04 18:57:43:5743  [35mhttp[39m: [35m::1 - - [04/Feb/2025:17:57:43 +0000] "DELETE /api/v1/remove_application/67a10e824b511f78beafd1d9 HTTP/1.1" 401 49[39m
+[35m[39m
+2025-02-04 19:01:28:128  [35mhttp[39m: [35m::1 - - [04/Feb/2025:18:01:28 +0000] "GET /api/v1/all_application HTTP/1.1" 200 499[39m
+[35m[39m
+2025-02-04 19:02:28:228  [35mhttp[39m: [35m::1 - - [04/Feb/2025:18:02:28 +0000] "DELETE /api/v1/remove_application/67a10e824b511f78beafd1d9 HTTP/1.1" 401 49[39m
+[35m[39m
+2025-02-04 19:03:28:328  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-04 19:03:28:328  [35mhttp[39m: [35m::1 - - [04/Feb/2025:18:03:28 +0000] "DELETE /api/v1/remove_application/67a10e824b511f78beafd1d9 HTTP/1.1" 401 49[39m
+[35m[39m
+2025-02-04 19:04:21:421  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-04 19:04:21:421  [35mhttp[39m: [35m::1 - - [04/Feb/2025:18:04:21 +0000] "DELETE /api/v1/remove_application/67a10e824b511f78beafd1d9 HTTP/1.1" 401 49[39m
+[35m[39m
+2025-02-04 19:05:16:516  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-04 19:05:17:517  [35mhttp[39m: [35m::1 - - [04/Feb/2025:18:05:17 +0000] "DELETE /api/v1/remove_application/67a10e824b511f78beafd1d9 HTTP/1.1" 401 49[39m
+[35m[39m
+2025-02-04 19:06:26:626  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-04 19:06:26:626  [35mhttp[39m: [35m::1 - - [04/Feb/2025:18:06:26 +0000] "DELETE /api/v1/remove_application/67a10e824b511f78beafd1d9 HTTP/1.1" 401 49[39m
+[35m[39m
+2025-02-04 19:07:19:719  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-04 19:07:20:720  [35mhttp[39m: [35m::1 - - [04/Feb/2025:18:07:20 +0000] "DELETE /api/v1/remove_application/67a10e824b511f78beafd1d9 HTTP/1.1" 401 49[39m
+[35m[39m
+2025-02-04 19:07:50:750  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-04 19:08:01:81  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-04 19:08:11:811  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-04 19:08:11:811  [35mhttp[39m: [35m::1 - - [04/Feb/2025:18:08:11 +0000] "DELETE /api/v1/remove_application/67a10e824b511f78beafd1d9 HTTP/1.1" 401 49[39m
+[35m[39m
+2025-02-04 19:08:31:831  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-04 19:08:32:832  [35mhttp[39m: [35m::1 - - [04/Feb/2025:18:08:32 +0000] "DELETE /api/v1/remove_application/67a10e824b511f78beafd1d9 HTTP/1.1" 200 21[39m
+[35m[39m
+2025-02-04 19:15:34:1534  [35mhttp[39m: [35m::1 - - [04/Feb/2025:18:15:34 +0000] "GET /api/v1/stats HTTP/1.1" 200 63[39m
+[35m[39m
+2025-02-04 19:16:00:160  [35mhttp[39m: [35m::1 - - [04/Feb/2025:18:16:00 +0000] "POST /api/v1/application/67a0f9b1ace4e442e9ef6733 HTTP/1.1" 200 502[39m
+[35m[39m
+2025-02-04 19:16:08:168  [35mhttp[39m: [35m::1 - - [04/Feb/2025:18:16:08 +0000] "GET /api/v1/stats HTTP/1.1" 200 78[39m
+[35m[39m
+2025-02-04 19:16:37:1637  [35mhttp[39m: [35m::1 - - [04/Feb/2025:18:16:37 +0000] "POST /api/v1/application/67a0f9b1ace4e442e9ef6733 HTTP/1.1" 404 30[39m
+[35m[39m
+2025-02-04 19:49:33:4933  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-04 20:07:19:719  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-09 23:10:37:1037  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-09 23:10:38:1038  [32minfo[39m: [32m[User registration] => Started [39m
+2025-02-09 23:10:38:1038  [32minfo[39m: [32m[User registration] => Check user Duplication[39m
+2025-02-09 23:10:41:1041  [32minfo[39m: [32m[User registration] => Check if this is first User to assign usertype [39m
+2025-02-09 23:10:46:1046  [32minfo[39m: [32m[User registration] => Create Token [39m
+2025-02-09 23:10:46:1046  [32minfo[39m: [32m[User registration] => Completed [39m
+2025-02-09 23:10:46:1046  [35mhttp[39m: [35m::1 - - [09/Feb/2025:22:10:46 +0000] "POST /api/v1/users HTTP/1.1" 201 151[39m
+[35m[39m
+2025-02-09 23:11:36:1136  [32minfo[39m: [32m[User Login] => Process Started [39m
+2025-02-09 23:11:36:1136  [35mhttp[39m: [35m::1 - - [09/Feb/2025:22:11:36 +0000] "POST /api/v1/login HTTP/1.1" 401 29[39m
+[35m[39m
+2025-02-09 23:12:15:1215  [32minfo[39m: [32m[User Login] => Process Started [39m
+2025-02-09 23:12:16:1216  [35mhttp[39m: [35m::1 - - [09/Feb/2025:22:12:16 +0000] "POST /api/v1/login HTTP/1.1" 401 47[39m
+[35m[39m
+2025-02-09 23:12:55:1255  [35mhttp[39m: [35m::1 - - [09/Feb/2025:22:12:55 +0000] "POST /api/v1/verify?verificationToken=3b8e186c451a22d654660c6977f9f77d&Email=ezeoyiri92314@gmail.com HTTP/1.1" 200 350[39m
+[35m[39m
+2025-02-09 23:13:02:132  [32minfo[39m: [32m[User Login] => Process Started [39m
+2025-02-09 23:13:09:139  [35mhttp[39m: [35m::1 - - [09/Feb/2025:22:13:09 +0000] "POST /api/v1/login HTTP/1.1" 200 174[39m
+[35m[39m
+2025-02-09 23:29:26:2926  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-09 23:30:09:309  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-09 23:31:05:315  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-09 23:31:59:3159  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-09 23:33:04:334  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-09 23:33:19:3319  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-09 23:36:28:3628  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-09 23:37:36:3736  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-09 23:41:14:4114  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-09 23:41:36:4136  [32minfo[39m: [32m[Database] => Connected Successfully[39m
+2025-02-09 23:42:10:4210  [32minfo[39m: [32m[Database] => Connected Successfully[39m

@@ -1,4 +1,5 @@
 const express = require("express");
+const { validateApplication } = require("../middleware/validators");
 const {
   applyJob,
   updateApplication,
@@ -13,11 +14,16 @@ const upload = multer({ dest: "/uploads" });
 
 const routeA = express.Router();
 
-routeA.post("/jobs/:id", authenticateUser, applyJob);
-routeA.patch("/jobs/:id", authenticateUser, updateApplication);
+routeA.post(
+  "/application/:id",
+  authenticateUser,
+  validateApplication,
+  applyJob
+);
+routeA.patch("/application_update/:id", authenticateUser, updateApplication);
 routeA.get("/stats", authenticateUser, showStat);
-routeA.get("/jobs", authenticateUser, allApplication);
-routeA.get("/job/:id", authenticateUser, singleApplication);
-routeA.delete("/job/:id", authenticateUser, removeApplication);
+routeA.get("/all_application", authenticateUser, allApplication);
+routeA.get("/application/:id", authenticateUser, singleApplication);
+routeA.delete("/remove_application/:id", authenticateUser, removeApplication);
 
 module.exports = routeA;

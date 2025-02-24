@@ -261,13 +261,14 @@ const logout = async (req, res) => {
 // Profile Picture
 const profilePicture = async (req, res) => {
   // uploading image to cloudinary and returning the returning the image url
-  const cloudinaryResponse = await cloudinary.uploader.upload_stream;
+  const cloudinaryResponse = await cloudinary.uploader.upload(req.file.path);
   // deleting the image from the upload folder after uploading to cloudinary
   fs.unlink(req.file.path, (err) => {
     if (err) {
       throw new CustomErr.InternalServerError("Upload not Successful");
     }
   });
+
   return res
     .status(StatusCodes.OK)
     .json({ data: cloudinaryResponse.secure_url });

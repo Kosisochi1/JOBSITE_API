@@ -14,15 +14,15 @@ const {
 const router = express.Router();
 
 router.get(
-  "/allUsers",
+  "/all_users",
   authenticateUser,
   authorizePermission("admin"),
   getAllUsers
 );
 
-router.get("/currentUser", authenticateUser, showCurrentUser);
-router.patch("/updateUser", authenticateUser, updateUser);
-router.patch("/updatePassword", authenticateUser, updatePassword);
-router.get("/singleUser/:id", authenticateUser, singleUser);
+router.get("/current_user", authenticateUser, showCurrentUser);
+router.patch("/update_user", authenticateUser, updateUser);
+router.patch("/update_password", authenticateUser, updatePassword);
+router.get("/single_user/:id", authenticateUser, singleUser);
 
 module.exports = router;

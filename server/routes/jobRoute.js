@@ -6,6 +6,7 @@ const {
   updateJob,
   deleteJob,
 } = require("../controllers/jobController");
+const { validateJob } = require("../middleware/validators");
 const {
   authenticateUser,
   authorizePermission,
@@ -16,7 +17,8 @@ const router = express.Router();
 router.post(
   "/jobs",
   authenticateUser,
-  authorizePermission("employer" || "admin"),
+  authorizePermission("admin" || "employer"),
+  validateJob,
   createJob
 );
 router.get("/jobs", authenticateUser, getAllJobs);
@@ -24,13 +26,13 @@ router.get("/job/:id", authenticateUser, getSingleJob);
 router.patch(
   "/job/:id",
   authenticateUser,
-  authorizePermission("employer" || "admin"),
+  authorizePermission("admin" || "employer"),
   updateJob
 );
 router.delete(
   "/job/:id",
   authenticateUser,
-  authorizePermission("employer" || "admin"),
+  authorizePermission("admin" || "employer"),
   deleteJob
 );
 

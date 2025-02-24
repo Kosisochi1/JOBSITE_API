@@ -17,7 +17,7 @@ const JobSchema = new Schema({
   },
   JobType: {
     type: String,
-    enum: ["Intern", "Full-Time", "Contract"],
+    enum: ["Intern", "Full_Time", "Contract"],
     default: "Intern",
     require: true,
   },

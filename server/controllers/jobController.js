@@ -17,7 +17,7 @@ const createJob = async (req, res) => {
     User_Id,
   } = req.body;
 
-  req.body.User_Id = req.user._id;
+  // req.body.User_Id = req.user._id;
   const job = await JobModel.create({
     JobTitle,
     Description,
@@ -26,7 +26,7 @@ const createJob = async (req, res) => {
     Location,
     Salary,
     Expires,
-    User_Id,
+    User_Id: req.user._id,
   });
 
   if (!job) {

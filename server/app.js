@@ -24,10 +24,10 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookie_parser());
 app.use(morganMiddleWare);
 
-app.use("/api/v1/auth-user", authUserRoute);
-app.use("/api/v1/users", usersRoute);
-app.use("/api/v1/jobs", jobRoute);
-app.use("/api/v1/applications", applicationRoute);
+app.use("/api/v1", authUserRoute);
+app.use("/api/v1", usersRoute);
+app.use("/api/v1", jobRoute);
+app.use("/api/v1", applicationRoute);
 
 app.get("*", (req, res) => {
   // logger.info("[Route] =>  Not Found");
